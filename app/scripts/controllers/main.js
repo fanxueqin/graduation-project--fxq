@@ -15,3 +15,12 @@ angular.module('shoppingMallApp')
       'Karma'
     ];
   });
+angular.module('shoppingMallApp')
+  .controller('MainCtrl_new_shopping', function ($scope) {
+    $scope.data = {
+    	current : 1
+    };
+    $scope.setCurrent =  function(param){
+    		$scope.data.current = param;
+    }
+  });
