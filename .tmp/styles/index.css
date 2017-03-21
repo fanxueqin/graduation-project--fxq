@@ -1,0 +1,76 @@
+/* line 1, ../../app/styles/index.scss */
+.searchWrap {
+  position: relative;
+  height: 80px;
+}
+
+/* line 5, ../../app/styles/index.scss */
+.search {
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  margin-left: -20%;
+  top: 50%;
+  margin-top: -20px;
+  height: 40px;
+}
+/* line 13, ../../app/styles/index.scss */
+.search input {
+  height: 40px;
+  border-radius: 0;
+}
+/* line 17, ../../app/styles/index.scss */
+.search .input-group-addon {
+  background-color: #cfb9e0;
+  color: #fff;
+  border-radius: 0;
+  border-right: none;
+  border-left: none;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+/* line 27, ../../app/styles/index.scss */
+.nav_bar {
+  height: 70px;
+  background-color: #9c8eaf;
+  color: #fff;
+}
+/* line 31, ../../app/styles/index.scss */
+.nav_bar ul {
+  margin: 0 80px;
+}
+/* line 33, ../../app/styles/index.scss */
+.nav_bar ul li {
+  display: inline-block;
+  list-style: none;
+  line-height: 70px;
+  padding: 0 70px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 42, ../../app/styles/index.scss */
+.nav_bar ul li:hover {
+  opacity: 0.5;
+  background-color: #d5b9e0;
+}
+
+/* line 49, ../../app/styles/index.scss */
+.carousel-inner {
+  width: 70%;
+  margin: 0 auto;
+  height: 350px;
+}
+
+/* line 54, ../../app/styles/index.scss */
+.recomand {
+  height: 400px;
+  text-align: center;
+}
+/* line 58, ../../app/styles/index.scss */
+.recomand h1 span {
+  color: #F9840D;
+}
+
+/*# sourceMappingURL=index.css.map */
