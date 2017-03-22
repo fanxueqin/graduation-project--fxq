@@ -88,12 +88,15 @@
 		text-align: right;
 	    width: 1200px;
 	    margin: 0 auto;
-	    border-bottom: 1px dashed #f7f4f4;
 	    span{
 	    	font-family: '微软雅黑';
 	    	color: #CFB9E0;
 	    	font-weight: 600;
     		font-size: 18px;
+    		display: inline-block;
+		    padding: 0 0 10px 10px;
+		    border-bottom: 3px solid #f7f4f4;
+		    letter-spacing: 5px;
 	    }
 	}
 	.tab_title{
@@ -136,13 +139,13 @@
 			width: 100%;
 		    margin: 0 auto;
 		    zoom: 1;
-		    padding: 0 20px;
+		    padding: 0 3%;
 	}
 	.new_shopping_list .tab_content  li{
 		display: inline-block;
-		margin: 36px 36px 0 0;
-	    width: 273px;
-	    height: 453px;
+		margin: 36px 3% 0 0;
+	    width: 22%;
+	    height: 443px;
 	    background-color: #fff;
 	}
 	.new_shopping_list .tab_content li:nth-of-type(4n){
