@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/log_reg.css">
+    <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="styles/order_list.css">
+    <link rel="stylesheet" href="styles/order_manager.css">
 
    
   </head>
@@ -20,10 +23,11 @@
             <li ui-sref-active="active"><a ui-sref="main">首页</a></li>
             <li ui-sref-active="active"><a ui-sref="about"> 关于我</a></li>
             <li ui-sref-active="active"><a ui-sref="contact">联系我</a></li>
+            <li ui-sref-active="active"><a ui-sref="order_manager">我的订单</a></li>
             <li ui-sref-active="active"><a ui-sref="login">我的女盆友</a></li>
         </ul>
     </div>
-
+    
     <div class="content-area">
        <div ui-view></div>
     </div>
@@ -47,6 +51,8 @@
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
+    <script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
 
 
      
@@ -56,6 +62,8 @@
     <script src="scripts/controllers/login.js"></script>
     <script src="scripts/controllers/signUp.js"></script>
     <script src="scripts/controllers/changePassword.js"></script>
+    <script src="scripts/controllers/detail.js"></script>
+    <script src="scripts/controllers/order.js"></script>
 
 
 </body>

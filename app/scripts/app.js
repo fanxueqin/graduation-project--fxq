@@ -17,7 +17,8 @@ angular
     'ngResource',
     'ngSanitize',
     'ngTouch',
-    'ui.router'
+    'ui.router',
+    'mgcrea.ngStrap'
   ])
   .config(function ($stateProvider,$urlRouterProvider) {
       $urlRouterProvider.when("", "/main");
@@ -111,6 +112,38 @@ angular
             views: {
               '':{
                 templateUrl: "views/shop_home.html"
+              }
+            }
+          })
+          .state("detail",{
+            url:"/detail",
+            views: {
+              '':{
+                templateUrl: "views/detail.html"
+              }
+            }
+          })
+          .state("order_list",{
+            url:"/order_list",
+            views:{
+              '':{
+                templateUrl: "views/order_list.html"
+              }
+            }
+          })
+          .state("order_success",{
+            url:"/order_success",
+            views:{
+              '':{
+                templateUrl: "views/order_success.html"
+              }
+            }
+          })
+          .state("order_manager",{
+            url:"/order_manager",
+            views:{
+              '':{
+                templateUrl: "views/order_manager.html"
               }
             }
           })
